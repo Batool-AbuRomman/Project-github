@@ -2,6 +2,9 @@ public class Student {
 
 private  int id;
 private String name;
+     Student (String name){
+         this.name=name;
+     }
      Student (int id ){
          this.id=id;
      }
