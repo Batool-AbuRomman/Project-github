@@ -2,7 +2,9 @@ public class Student {
 
 private  int id;
 private String name;
-
+     Student (String name){
+         this.name=name;
+     }
     public String getName() {
         return name;
     }
